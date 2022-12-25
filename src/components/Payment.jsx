@@ -12,14 +12,14 @@ function Payment() {
             <img src={Discount} alt="Discount" />
             <p className="ml-1">20% Discount For 1 Month Account</p>
           </div>
-          <div className="font-bold px-1 md:px-0 text-6xl md:text-8xl py-3">
+          <div className="font-bold text-6xl md:text-8xl py-3 text-center md:text-start">
             <p className="">
               The Next
               <span className="text-indigo-200"> Generation</span> Payment
               Method.
             </p>
           </div>
-          <div className="font-bold text-xl px-3 md:px-0 py-3 text-indigo-200">
+          <div className="font-bold text-xl text-center md:text-start py-3 text-indigo-200">
             <p className="">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage
