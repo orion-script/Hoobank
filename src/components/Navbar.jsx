@@ -25,7 +25,7 @@ function Navbar() {
   };
 
   return (
-    <div className="">
+    <div className="w-full">
       <nav className="w-full sticky top-0 z-50">
         <div className="bg-background text-white flex md:flex-row w-full h-auto justify-between items-center py-5 sticky top-0 z-50">
           <div className="pl-5 md:pl-10 w-2/4 md:w-1/5">
@@ -57,14 +57,6 @@ function Navbar() {
           </div>
         </div>
       </nav>
-      <div className="bg-background text-white nav-bar hidden">
-        <ul className="flex flex-col w-full h-screen items-center py-10">
-          <li className="cursor-pointer py-1">Home</li>
-          <li className="cursor-pointer py-1">Features</li>
-          <li className="cursor-pointer py-1">Product</li>
-          <li className="cursor-pointer py-1">Clients</li>
-        </ul>
-      </div>
     </div>
   );
 }

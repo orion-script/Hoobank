@@ -19,7 +19,7 @@ function Payment() {
               Method.
             </p>
           </div>
-          <div className="font-bold text-base px-3 md:px-0 md:text-xl py-3 text-indigo-200">
+          <div className="font-bold text-xl px-3 md:px-0 py-3 text-indigo-200">
             <p className="">
               Our team of experts uses a methodology to identify the credit
               cards most likely to fit your needs. We examine annual percentage

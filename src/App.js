@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hamburger from "./components/Hamburger";
+import SideBar from "./components/SideBar";
 import Payment from "./components/Payment";
 import Bussiness from "./components/Bussiness";
 import Billing from "./components/Billing";
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hamburger />
+      <SideBar />
       <Payment />
       <Bussiness />
       <Billing />
