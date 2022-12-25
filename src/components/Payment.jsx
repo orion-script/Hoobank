@@ -15,8 +15,7 @@ function Payment() {
           <div className="font-bold text-6xl md:text-8xl py-3 text-center md:text-start">
             <p className="">
               The Next
-              <span className="text-indigo-200"> Generation</span> Payment
-              Method.
+              <span className="highlight"> Generation</span> Payment Method.
             </p>
           </div>
           <div className="font-bold text-xl text-center md:text-start py-3 text-indigo-200">
