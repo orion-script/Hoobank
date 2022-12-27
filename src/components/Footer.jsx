@@ -58,8 +58,8 @@ function Footer() {
           <img src={linkedin} alt="linkedin" className="px-2" />
         </div>
       </div>
-      <div className="text-center mt-10 text-sm">
-        <p>
+      <div className="text-center mt-10 text-sm typewritter">
+        <p className="typewritter">
           Designed by{" "}
           <a
             className="text-indigo-200 text-base font-thin"
