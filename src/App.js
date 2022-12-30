@@ -3,6 +3,7 @@ import SideBar from "./components/SideBar";
 import Payment from "./components/Payment";
 import Bussiness from "./components/Bussiness";
 import Billing from "./components/Billing";
+import Section from "./components/Section";
 import Card from "./components/Card";
 import Gallery from "./components/Gallery";
 import Partners from "./components/Partners";
@@ -18,6 +19,7 @@ function App() {
       <Payment />
       <Bussiness />
       <Billing />
+      <Section />
       <Card />
       <Gallery />
       <Partners />

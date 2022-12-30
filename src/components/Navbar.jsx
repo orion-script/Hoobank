@@ -5,7 +5,7 @@ import Closed from "../assets/close.svg";
 
 function Navbar() {
   const showNavbar = () => {
-    const navBar = document.querySelector(".nav-bar");
+    const navBar = document.querySelector(".side-bar");
     const hamButton = document.querySelector(".hamButton");
     const closeBtn = document.querySelector(".close-Btn");
 
@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   const hideNavbar = () => {
-    const navBar = document.querySelector(".nav-bar");
+    const navBar = document.querySelector(".side-bar");
     const hamButton = document.querySelector(".hamButton");
     const closeBtn = document.querySelector(".close-Btn");
 
@@ -25,8 +25,8 @@ function Navbar() {
   };
 
   return (
-    <div className="w-full">
-      <nav className="w-full sticky top-0 z-50">
+    <div className="w-full sticky top-0 z-50">
+      <nav className="w-full">
         <div className="bg-background text-white flex md:flex-row w-full h-auto justify-between items-center py-5 sticky top-0 z-50">
           <div className="pl-5 md:pl-10 w-2/4 md:w-1/5">
             <img
@@ -51,7 +51,7 @@ function Navbar() {
             <img
               src={Closed}
               alt="Closed"
-              className="hidden close-Btn"
+              className="md:hidden hidden close-Btn"
               onClick={hideNavbar}
             />
           </div>

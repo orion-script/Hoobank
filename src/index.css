@@ -2,25 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.scrollToTop {
-  position: fixed;
-  width: 10%;
-  bottom: 20px;
-  left: 88%;
-  align-items: center;
-  height: 20px;
-  justify-content: center;
-  z-index: 1000;
-  cursor: pointer;
-  transition: opacity 0.4s;
-  opacity: 0.5;
-  color: #ffff;
-}
-
-.scrollToTop:hover {
-  opacity: 1;
-}
-
 :root {
   --gradient-primary: linear-gradient(to top left, #6366f1, #ec4899);
 }
@@ -46,13 +27,9 @@
     transform: scale(0.97, 0.9) skewX(-10deg);
     background-image: red;
   }
-
-  .scrollToTop {
-    left: 80%;
-  }
 }
 
-.nav-bar {
+.side-bar {
   animation-name: buttom-to-top;
   animation-duration: 1s;
 }

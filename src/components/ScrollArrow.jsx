@@ -20,7 +20,8 @@ const ScrollArrow = () => {
 
   return (
     <FaArrowCircleUp
-      className="scrollToTop animate-bounce"
+      className="fixed animate-bounce w-1/12 bottom-5 left-[80%] md:left-[88%] items-center h-5 justify-center z-[100]
+      text-white cursor-pointer opacity-50 duration-300 hover:opacity-100"
       onClick={scrollTop}
       style={{ height: 40, display: showScroll ? "flex" : "none" }}
     />
